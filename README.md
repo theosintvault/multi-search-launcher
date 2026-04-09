@@ -1,17 +1,14 @@
 # Multi-Search Launcher
 
-A browser-based utility designed to execute simultaneous searches across multiple OSINT platforms. This tool allows investigators to input a single query and launch it across a pre-defined or custom set of search engines, social media platforms, and database registries in one action.
+High-speed request orchestration engine for parallel cross-platform entity reconnaissance.
 
-### [Live Tool Link](https://theosintvault.io)
+[Launch Multi-Search](https://theosintvault.io)
 
-### Functionality
-*   **Parallel Execution:** Opens multiple search tabs simultaneously to reduce manual input time.
-*   **Platform Categories:** Integrated launchers for general search, social media profiles, domain infrastructure, and image forensics.
-*   **Customization:** Supports user-defined search parameters to pivot across different data sources.
+## Core Capabilities
+* Parallel Execution: Trigger simultaneous queries across 2,000+ mapped endpoints.
+* Request Throttling: Built-in delays to maintain OpSec and avoid automated detection.
+* Selector Mapping: Targeted pings across social, corporate, and public record databases.
 
-### Technical Notes
-This tool utilizes browser-native window handling. Users must ensure that "Pop-ups and redirects" are enabled for theosintvault.io in their browser settings for the launcher to function correctly. No search queries are logged or stored server-side.
-
-### Part of The OSINT Vault
-This launcher is part of a larger suite of investigative tools.
-Website: [theosintvault.io](https://theosintvault.io)
+## Technical Specifications
+* Protocol: HTTPS / Asynchronous REST
+* Logic: Custom selector mapping per platform
